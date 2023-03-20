@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { toast } from 'react-hot-toast';
 import { useDispatch } from 'react-redux';
-import { deleteContact } from 'redux/operations';
+import { deleteContact } from 'redux/contacts/operations';
 import { Text, Button } from './Contact.styled';
 
 export const Contact = ({ contact: { id, name, number } }) => {
