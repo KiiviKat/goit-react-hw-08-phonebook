@@ -21,7 +21,7 @@ const Contacts = () => {
   return (
     <>
       <Text>
-        Manage your contacts in the
+        Manage your contacts
         <Logo to={ROUTES.HOME}>Phonebook</Logo>
       </Text>
       <ContactForm />

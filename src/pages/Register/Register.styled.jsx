@@ -5,7 +5,7 @@ export const Text = styled.p`
   font-size: 18px;
   line-height: 1.4;
   font-weight: 500;
-  padding: 30px;
+  padding: 16px;
 `;
 
 export const Logo = styled(Link)`

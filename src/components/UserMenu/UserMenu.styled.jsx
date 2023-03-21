@@ -14,17 +14,18 @@ export const UserText = styled.p`
 `;
 
 export const LogOutButton = styled.button`
-  display: flex;
-  justify-content: center;
-  border: none;
-  background-color: transparent;
-  color: #4682b4;
-  transition: var(--animation-global);
-  width: 24px;
+  color: inherit;
+  padding: 4px;
+  font-size: 12px;
+  border: 1px solid DarkSlateBlue;
+  border-radius: 4px;
+  background-color: Plum;
+  cursor: pointer;
+
   &:hover,
   &:focus,
   &:active {
-    color: #000080;
-    filter: drop-shadow(0 5px 15px rgb(0 0 0 / 35%));
+    background-color: DarkSlateBlue;
+    color: White;
   }
 `;
