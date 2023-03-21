@@ -27,7 +27,7 @@ const Login = () => {
   return (
     <>
       <Text>
-        Login to your account on <Logo to={ROUTES.CONTACTS}>Phonebook</Logo>
+        Login to your account<Logo to={ROUTES.CONTACTS}>Phonebook</Logo>
       </Text>
       <Formik
         initialValues={initialValues}
@@ -37,7 +37,7 @@ const Login = () => {
         <StyledForm>
           <Wrapper>
             <Label>
-              <span>EMail</span>
+              <span>Email</span>
               <Input type="email" name="email" />
               <Error component="div" name="email" />
             </Label>

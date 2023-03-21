@@ -27,7 +27,7 @@ const Register = () => {
   return (
     <>
       <Text>
-        Create your private account to use <Logo>Phonebook</Logo>
+        Create your private account<Logo>Phonebook</Logo>
       </Text>
       <Formik
         initialValues={initialValues}
@@ -44,7 +44,7 @@ const Register = () => {
           </Wrapper>
           <Wrapper>
             <Label>
-              <span>EMail</span>
+              <span>Email</span>
               <Input type="email" name="email" />
               <Error component="div" name="email" />
             </Label>

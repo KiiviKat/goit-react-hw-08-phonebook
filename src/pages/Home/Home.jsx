@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Text>
-        Hello and welcome to the <Logo to={ROUTES.CONTACTS}>Phonebook</Logo>
+        Hello and welcome<Logo to={ROUTES.CONTACTS}>Phonebook</Logo>
       </Text>
     </>
   );

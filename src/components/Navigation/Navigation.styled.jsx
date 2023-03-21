@@ -3,19 +3,20 @@ import styled from 'styled-components';
 
 export const StyledNavLink = styled(NavLink)`
   display: inline-block;
-  padding: 10px;
-  border-radius: 5px;
-  color: #000;
-  background-color: #d5e3e1;
-  transition: var(--animation-global);
-  font-weight: 700;
+  color: inherit;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid DarkSlateBlue;
+  border-radius: 4px;
+  background-color: Plum;
+  cursor: pointer;
   text-decoration: none;
-  &:active,
+
   &:hover,
-  &:focus {
-    color: #fff;
-    background-color: #000080;
-    box-shadow: var(--shadow-global);
+  &:focus,
+  &:active {
+    background-color: DarkSlateBlue;
+    color: White;
   }
 `;
 

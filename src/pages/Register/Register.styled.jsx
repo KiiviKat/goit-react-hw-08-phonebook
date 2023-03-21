@@ -13,10 +13,11 @@ export const Logo = styled(Link)`
   font-size: 40px;
   font-style: italic;
   line-height: 1.6;
-  color: #4682b4;
+  color: Plum;
+  text-decoration: none;
   &:hover,
   &:focus {
-    color: #000080;
+    color: DarkSlateBlue;
   }
 `;
 
