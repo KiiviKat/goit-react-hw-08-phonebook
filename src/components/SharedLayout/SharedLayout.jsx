@@ -25,7 +25,7 @@ export const SharedLayout = () => {
           <Outlet />
         </Suspense>
       </StyledMain>
-      <Toaster />
+      <Toaster position="top-left" />
     </Box>
   );
 };

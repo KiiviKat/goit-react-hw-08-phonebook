@@ -8,7 +8,7 @@ import {
 import { Formik } from 'formik';
 import { useDispatch } from 'react-redux';
 import { register } from 'redux/auth/operations';
-import { registrationSchema } from 'utils/schemas';
+// import { registrationSchema } from 'utils/schemas';
 
 const initialValues = {
   name: '',
@@ -32,7 +32,7 @@ const Register = () => {
       <Formik
         initialValues={initialValues}
         onSubmit={handleSubmit}
-        validationSchema={registrationSchema}
+        // validationSchema={registrationSchema}
       >
         <StyledForm>
           <Wrapper>

@@ -9,7 +9,7 @@ import { Label, Logo, Text, Wrapper } from 'pages/Register/Register.styled';
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
 import { ROUTES } from 'utils/routes';
-import { loginSchema } from 'utils/schemas';
+// import { loginSchema } from 'utils/schemas';
 
 const initialValues = {
   email: '',
@@ -32,7 +32,7 @@ const Login = () => {
       <Formik
         initialValues={initialValues}
         onSubmit={handleSubmit}
-        validationSchema={loginSchema}
+        // validationSchema={loginSchema}
       >
         <StyledForm>
           <Wrapper>
